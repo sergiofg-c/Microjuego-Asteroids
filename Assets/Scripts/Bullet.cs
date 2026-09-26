@@ -39,7 +39,6 @@ public class Bullet : MonoBehaviour
          if(other.gameObject.CompareTag("Enemy"))
         {
             
-            Vector2 p = new Vector2(5f, 7f);
             GameObject mini1 = Instantiate(miniMeteor,other.transform.position , Quaternion.Euler(0,0,45f));
             MiniMeteor mini1rig = mini1.GetComponent<MiniMeteor>();
             mini1rig.targetVector = new Vector2(0,-5f);
