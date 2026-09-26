@@ -1,8 +1,5 @@
-using System;
-using Unity.Mathematics;
-using UnityEditor.Callbacks;
+
 using UnityEngine;
-using UnityEngine.Rendering;
 using UnityEngine.UI;
 
 public class Bullet : MonoBehaviour
